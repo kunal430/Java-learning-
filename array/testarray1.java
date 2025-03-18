@@ -1,6 +1,6 @@
 public class testarray1 {
     public static void main(String args[]){
-        int anum[]= new int[5]; // declaring am array
+        int anum[]= new int[5]; // declaring an array
         anum[0]=20;
         anum[1]=30;
         anum[2]=40;
