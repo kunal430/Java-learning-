@@ -2,7 +2,8 @@ public class testarray3{
     public static void main(String args[]){
         // array of char data type
        char spell[] = {'k','u','n','a','l'};
-
+       // printing all array with index no
+       System.out.println("char (data type) array \n");
        System.out.println("array at 0th position - "+spell[0]);
        System.out.println("array at 1st position - "+spell[1]);
        System.out.println("array at 2nd position - "+spell[2]);
