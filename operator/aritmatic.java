@@ -5,6 +5,7 @@ public class aritmatic {
         int a = 10; // initializing values
         int b = 20;
 
+        // arithmatic opetrations using declared veriables
         System.out.println("aritmatic operator \n");
         System.out.println("a = "+a);
         System.out.println("b = "+b);
