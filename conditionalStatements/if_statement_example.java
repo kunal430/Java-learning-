@@ -1,4 +1,4 @@
-package conditionalLoops;
+package conditionalStatements;
 import java.util.*;
 public class if_statement_example {
     public static void main(String[] args) {

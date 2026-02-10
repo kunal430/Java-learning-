@@ -1,4 +1,4 @@
-package conditionalLoops ;
+package conditionalStatements ;
 import java.util.*;
  class if_else_example {
     public static void main(String[] args) {

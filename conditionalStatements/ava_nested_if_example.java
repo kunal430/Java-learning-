@@ -1,4 +1,4 @@
-package conditionalLoops;
+package conditionalStatements;
 import java.util.*;
 
 public class ava_nested_if_example{
@@ -10,9 +10,9 @@ public class ava_nested_if_example{
     int age = sc.nextInt();
     System.out.println("enter your waight= ");
     int waight = sc.nextInt();
-    //outer loop
+    //outer if statement
     if(age>18){
-        //inner loop
+        //inner (nested) if statement
         if(waight>50){
             System.out.println(name+ " you are eligible to donet blood");
         }
