@@ -29,8 +29,13 @@ class bankbalance{
         b1.name ="saransh";
         b1.accountBalance = 234 ;
         b1.accountNo=342;
+        System.out.println("parameterized construter called =");
         b1.Knowbalance();
+        System.out.println("default constructor called =");
         b2.Knowbalance();
     }
     
 }
+// o/p
+//saransh your account no 342 with balance 234
+//unknown your account no 0 with balance 0

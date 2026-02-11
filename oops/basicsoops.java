@@ -1,5 +1,4 @@
 package oops;
-
 class Student{
     String name ;
     String age ;
@@ -9,7 +8,6 @@ class Student{
         System.out.println(this.age);
     } 
 }
-
 public class basicsoops {
     public static void main(String[] args) {
         
