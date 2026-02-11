@@ -10,8 +10,6 @@ class Student{
     } 
 }
 
-
-
 public class basicsoops {
     public static void main(String[] args) {
         
