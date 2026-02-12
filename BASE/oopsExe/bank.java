@@ -37,5 +37,7 @@ class bankbalance{
     
 }
 // o/p
+//parameterized construter called =
 //saransh your account no 342 with balance 234
+//default constructor called =
 //unknown your account no 0 with balance 0
