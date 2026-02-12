@@ -18,4 +18,8 @@ public class switchStatemenet {
                 break;
         }sc.close();
     }
-}
+}  
+
+// o/p 
+//  if input 1 == pressed 1
+//  if input 3 == invalid input 
