@@ -9,8 +9,9 @@ public class pattern1 {
     int row = sc.nextInt();
     System.out.println("enter column = ");
     int column = sc.nextInt();
-
+    // outer loop
     for (int i = 0 ;i < row;i++){ 
+        // inner loop
         for (int j = 0 ; j < column ; j ++){
             System.out.print("@");
 
@@ -21,3 +22,18 @@ public class pattern1 {
     sc.close();  
     }  
 }
+/*  o/p 
+enter row = 
+9
+enter column = 
+7
+@@@@@@@
+@@@@@@@
+@@@@@@@
+@@@@@@@
+@@@@@@@
+@@@@@@@
+@@@@@@@
+@@@@@@@
+@@@@@@@
+*/
