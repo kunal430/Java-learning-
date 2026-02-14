@@ -8,5 +8,8 @@ public class arrayz {
     }
     
 }
-/* o/p  
+/* o/p 
+
+  20 30
+  
 */
