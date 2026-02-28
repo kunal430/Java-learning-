@@ -2,42 +2,48 @@ package oopsExe.encapsulation;
 
 public class student {
 
-    private String name ;
-    //gatter for name 
+    // private variables (encapsulation)
+    private String name;
+    private int age;
+    private String schoolName;
 
-    public String getName(){
+    // getter for name
+    public String getName() {
         return name;
     }
 
-    //setter for age
-    public void setAge(String name){
+    // setter for name
+    public void setName(String name) {
         this.name = name;
+    }
 
-
-    private String school_name;
-
-
-    private int age ;
-
-    //gatter for age 
-
-    public int getAge(){
+    // getter for age
+    public int getAge() {
         return age;
     }
 
-    //setter for age
-    public void setAge(int age){
+    // setter for age
+    public void setAge(int age) {
         this.age = age;
     }
 
-    void age_info(){
-        System.out.println("age is = "+age);
-    }
-    
-
-    void stud_info(){
-        System.out.println(getName()+"is studying in "+ school_name);
+    // getter for school name
+    public String getSchoolName() {
+        return schoolName;
     }
 
-    
+    // setter for school name
+    public void setSchoolName(String schoolName) {
+        this.schoolName = schoolName;
+    }
+
+    // method to print age
+    void ageInfo() {
+        System.out.println("Age is = " + age);
+    }
+
+    // method to print student info
+    void studInfo() {
+        System.out.println(name + " is studying in " + schoolName);
+    }
 }
