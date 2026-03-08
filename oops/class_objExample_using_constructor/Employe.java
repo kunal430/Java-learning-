@@ -1,4 +1,4 @@
-package oopsExe;
+package oops.class_objExample_using_constructor;
 
 public class Employe { // class created 
     String empName ;

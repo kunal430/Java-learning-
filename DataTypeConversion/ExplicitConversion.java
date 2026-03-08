@@ -6,7 +6,7 @@ public class ExplicitConversion {
         System.out.println("double datatype : "+d);
 
         //convertion to long
-
+                 //type casting
         long l = (long)d;
         System.out.println("long datatype : "+l);
 
